@@ -39,3 +39,13 @@
   overflow: auto;
 }
 
+// truncate
+// --------
+// Truncate text to protect layout 
+
+@mixin truncate($truncation-boundary) {
+    max-width: $truncation-boundary;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
