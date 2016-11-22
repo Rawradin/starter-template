@@ -4,7 +4,7 @@
   "description": "Gulp build tool",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp" : "gulp"
   },
   "author": "Robert Aguilera",
   "license": "ISC",
